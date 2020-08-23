@@ -13,3 +13,11 @@ body{
     background-attachment: fixed;
 
 }
+
+.btn {
+    border-radius: 15px;
+}
+
+.jumbotron{
+    border-radius: 15px 50px 30px;
+}
