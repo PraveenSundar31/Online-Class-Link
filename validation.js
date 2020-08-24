@@ -2,10 +2,10 @@ var info = new Date();
 var day=info.getDay();
 if (day==1) {
     if (confirm("Today is Monday....If you want to see what's in the Webpage click OK ")) {
-        window.opener=self; 
+        window.open("https://praveensundar31.github.io/onlineclasslink/"); 
     }
     else{
-        open(location, '_self').close();
+        window.close("https://praveensundar31.github.io/onlineclasslink/");
         
     }
 }
