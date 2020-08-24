@@ -5,8 +5,8 @@ if (day==1) {
         window.opener=self; 
     }
     else{
-        window.open('','_self','');
-        window.close();
+        window.open('','_self').close();
+        
     }
 }
 
