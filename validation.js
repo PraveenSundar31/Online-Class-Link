@@ -5,7 +5,7 @@ if (day==1) {
         window.open("https://praveensundar31.github.io/onlineclasslink/"); 
     }
     else{
-        window.close("https://praveensundar31.github.io/onlineclasslink/");
+        self.window.close();
         
     }
 }
