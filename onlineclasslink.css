@@ -8,7 +8,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
 }
 
 .btn {
@@ -66,3 +65,23 @@ html {
     border-radius: 15px 50px 30px;
 }
 
+td,
+th {
+    padding: 1rem;
+}
+
+td > a {
+    padding: .4rem 1rem;
+}
+
+.custom--container {
+    margin: 0 auto;
+    width: min(1000px, 90vw);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media(max-width: 450px) {
+    td, th { padding: .4rem; }
+}
