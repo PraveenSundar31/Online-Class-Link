@@ -1,0 +1,67 @@
+h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+
+body{
+    background-image: url(https://img.pngio.com/dark-tech-background-clipart-images-gallery-for-free-download-tech-backgrounds-png-2048_1367.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.btn {
+    border-radius: 15px;
+    background-image: linear-gradient(to right,#007bff ,#0fc7e4);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.jumbotron{
+    border-radius: 15px 50px 30px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    background-image: linear-gradient(to right,#198819 ,#d4df3d);
+}
+
+
+.card-header{
+    background-image: linear-gradient(to right,#b700ff ,#d0a1e6);
+    font-size: 2rem;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.alert{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.card{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.table{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 15px 50px 30px;
+}
+
+.btn-sm{
+    background-image: linear-gradient(to right,#d45dca ,#e40f56);
+    border-color: black;
+}
+
+.alert-success{
+    border-radius: 15px 50px 30px;
+}
