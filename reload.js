@@ -1,1 +1,1 @@
-window.location.href = window.location.origin + window.location.pathname;
+ function removeParam(key, sourceURL) { var rtn = sourceURL.split("#"), param, params_arr = [], queryString = (sourceURL.indexOf("?") !== -1) ? sourceURL.split("#")
