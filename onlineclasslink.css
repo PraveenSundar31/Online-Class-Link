@@ -85,3 +85,12 @@ td > a {
 @media(max-width: 450px) {
     td, th { padding: .4rem; }
 }
+
+and hide them using that class?
+
+<a href="#tab1" class="hiddenTab">foo</a>
+And in your CSS:
+
+a.hiddenTab {
+visibility:hidden; display:none;
+}
