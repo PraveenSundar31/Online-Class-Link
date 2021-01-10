@@ -1,0 +1,79 @@
+h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+
+body{
+    background-image: url(https://img.pngio.com/dark-tech-background-clipart-images-gallery-for-free-download-tech-backgrounds-png-2048_1367.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.btn {
+    border-radius: 15px;
+    background-image: linear-gradient(to right,#094f99 ,#0fc7e4);
+}
+
+.jumbotron{
+    border-radius: 15px 50px 30px;
+    background-image: linear-gradient(to right,#198819 ,#d4df3d);
+}
+
+
+.card-header{
+    background-image: linear-gradient(to right,#b700ff ,#d0a1e6);
+    font-size: 2rem;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    margin-bottom: 100px;
+}
+
+.alert,.card,.btn,.jumbotron,table{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+.btn-sm{
+    background-image: linear-gradient(to right,#d45dca ,#e40f56);
+    border-color: black;
+}
+
+.alert-success{
+    border-radius: 15px 50px 30px;
+}
+
+td,
+th {
+    padding: 1rem;
+}
+
+td > a {
+    padding: .4rem 1rem;
+}
+
+.custom--container {
+    margin: 0 auto;
+    width: min(1000px, 90vw);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media(max-width: 450px) {
+    td, th { padding: .4rem; }
+}
+
+
+
+a.hiddenTab {
+    visibility:hidden; 
+    display:none;
+}
+
+
