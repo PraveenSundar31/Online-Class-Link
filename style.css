@@ -88,8 +88,16 @@ a.hiddenTab {
     background-attachment: auto; 
 }
 
-a:focus,a:hover,.dropdown-item:focus,.dropdown-item:hover{
-    background-color: rgb(23, 145, 23);
+a.btn:focus,a.btn:hover{
+    background: rgb(0,0,0,0);  
+    border-radius: 15px 50px 30px;
+    border:2px solid white;
+ 
+}
+
+a.dropdown-item:focus,a.dropdown-item:hover{
+    background: rgb(22,150,21);
+    background: linear-gradient(270deg, rgba(22,150,21,0.8130602582830007) 15%, rgba(0,185,255,0.7794468129048494) 50%, rgba(254,255,0,0.8858893899356618) 85%);
     border-radius: 15px 50px 30px;
     border:2px solid white;
  
