@@ -161,17 +161,15 @@
     });
     }
 
-     
-      //Page reload
+
+    //Page reload
     console.log(document.referrer);
-    console.log(document.location.href);
+console.log(document.location.href);
 
-    if (document.referrer !== document.location.href) {
+if (document.referrer !== document.location.href) {
 	setTimeout(function() {
-		document.location.reload();console.log("refreshed");window.stop();
-    }, 5000);
-    }
-
+		document.location.reload();console.log("refreshed");alert("refreshed");window.stop()}, 3000);
+}
 
       
   </script>
