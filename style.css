@@ -1,106 +1,117 @@
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-
-h1{
-    font-family: 'Sriracha', cursive;
-}
-
-body{
-    background-image: url(https://cdn.pixabay.com/photo/2016/10/29/10/12/purple-1780371_1280.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.btn,.dropdown-menu{
-    border-radius: 15px;
-    background: rgb(245,21,202);
-    background: linear-gradient(90deg, rgba(245,21,202,1) 0%, rgba(255,250,30,1) 100%);
-    font-weight: 500;
-}
-
-.jumbotron{
-   
-    border-radius: 15px 50px 30px;
-    background-image: url(https://image.freepik.com/free-photo/abstract-luxury-clear-yellow-wall-well-use-as-backdrop-background-layout_1258-266.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 
-.card-header{
-    background-image: linear-gradient(to right,#b700ff ,#ffd902);
-    font-size: 2rem;
-}
+    .display-4{
+        font-family: 'Amatic SC', cursive;
+        font-size: 96px;
+    }
+
+    em{
+        font-family: 'Open Sans', sans-serif;
+        text-indent: 50px !important;
+        
+    }
+
+    body{
+        background-image: url("/images/background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .btn{
+        border-radius: 15px;
+        background: transparent;
+        font-weight: 500;
+        position: relative;
+        text-shadow: 0 0 50px #b700ff;
+    }
 
 
-html {
-    scroll-behavior: smooth;
-    margin-bottom: 100px;
-}
+    .jumbotron{
+    
+        border-radius: 15px 50px 30px;
+        background-color: transparent;
+        color: #fff;
+        text-shadow: 0 0 50px #b700ff;
 
-.alert,.card,.btn,.jumbotron,table{
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-}
-
-
-.btn-sm{
-    background-image: linear-gradient(to right,#d45dca ,#e40f56);
-    border-color: black;
-}
+        
+    }   
 
 
-
-td,
-th {
-    padding: 1rem;
-}
-
-td > a {
-    padding: .4rem 1rem;
-}
-
-.custom--container {
-    margin: 0 auto;
-    width: min(1000px, 90vw);
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-@media(max-width: 450px) {
-    td, th { padding: .4rem; }
-}
+    .card-header,.card{
+        background:transparent;
+        font-size: 2rem;
+        font-family: 'Amatic SC', cursive;
+        text-shadow: 5px 5px 50px #b700ff;
+    }
 
 
+    html {
+        scroll-behavior: smooth;
+        margin-bottom: 100px;
+    }
 
-a.hiddenTab {
-    visibility:hidden; 
-    display:none;
-}
+    .alert,.card,.btn,.jumbotron,table{
+        box-shadow: 0 0 15px #ccff33;
+        -webkit-box-shadow: 0 0 15px #ccff33;
+        -moz-box-shadow: 0 0 15px #ccff33;
+    }
 
-#news{
-    background-image: url(images/announce-advertisement-poster-background-vector-20585135.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 115%;
-    background-attachment: auto; 
-}
 
-a.btn:focus,a.btn:hover{
-    background: rgb(0,0,0,0);  
-    border-radius: 15px 50px 30px;
-    border:2px solid white;
- 
-}
+    td,
+    th {
+        padding: 1rem;
+    }
 
-a.dropdown-item:focus,a.dropdown-item:hover{
-    background: rgb(22,150,21);
-    background: linear-gradient(270deg, rgba(22,150,21,0.8130602582830007) 15%, rgba(0,185,255,0.7794468129048494) 50%, rgba(254,255,0,0.8858893899356618) 85%);
-    border-radius: 15px 50px 30px;
-    border:2px solid white;
- 
-}
+    td > a {
+        padding: .4rem 1rem;
+    }
+
+    .custom--container {
+        margin: 0 auto;
+        width: min(1000px, 90vw);
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    @media(max-width: 450px) {
+        td, th { padding: .4rem; }
+    }
+
+
+
+    a.hiddenTab {
+        visibility:hidden; 
+        display:none;
+    }
+
+    #news,marquee,.sub-nav{
+        background: transparent;
+        color:white;
+        text-shadow: 0 0 5px #b700ff;; 
+    }
+
+    a.btn:focus,a.btn:hover{
+        background: #ccff33;  
+        border:2px solid white;
+        box-shadow: 0 0 50px #88ac1f;
+        text-shadow: 0 0 50px #b700ff;
+        transform: scale(1.1,1.1);
+        color:black !important;
+        transition: transform 0.5s ease-out;
+    
+    }
+
+    .bt:hover{
+        background-color: #b700ff;
+        box-shadow: 0 0 15px #ccff33;
+        transform: scale(1.1,1.1);
+        transition: transform 0.5s ease-out;
+    }
+
+
+
 
 
