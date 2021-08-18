@@ -13,7 +13,6 @@
     }
 
     body{
-        background-color:black;
         background-image: url("/images/background.jpg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -79,6 +78,10 @@
 
     @media(max-width: 450px) {
         td, th { padding: .4rem; }
+        .gif{
+            max-width: 150px;
+            max-height: auto;
+        }
     }
 
 
@@ -111,6 +114,7 @@
         transform: scale(1.1,1.1);
         transition: transform 0.5s ease-out;
     }
+
 
 
 
