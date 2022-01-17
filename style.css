@@ -1,30 +1,34 @@
-    @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
-
-
-    .display-4{
-        font-family: 'Amatic SC', cursive;
-        font-size: 96px;
+::selection {
+    color: rgb(0, 0, 0);
+    background: yellow;
+  }
+    
+    .display-4,.alert-heading{
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 50px;
+        color: yellow;
+        text-shadow: 0px 0px 20px #b700ff;
     }
 
-    em{
-        font-family: 'Open Sans', sans-serif;
-        text-indent: 50px !important;
-        
-    }
 
     body{
-        background-image: url("/images/background.jpg");
+        background: linear-gradient(180deg, rgb(25, 32, 41) 11.2%, rgb(12, 29, 48) 51.2%, rgb(0, 0, 0) 98.6%);
+        height: 100%;
+        margin: 0;
         background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
+        background-attachment: fixed; 
+        
     }
 
     .btn{
         border-radius: 15px;
         background: transparent;
         font-weight: 500;
-        position: relative;
-        text-shadow: 0 0 50px #b700ff;
+        font-size: 35px;
+        text-shadow: 0px 0px 20px #b700ff;
+        font-family: 'Luckiest Guy', cursive;
+        color:yellow;
+        letter-spacing: 2px;
     }
 
 
@@ -32,42 +36,40 @@
     
         border-radius: 15px 50px 30px;
         background-color: transparent;
-        color: #fff;
-        /*text-shadow: 0 0 50px #b700ff; */
-
-        
     }   
 
 
     .card-header,.card{
         background:transparent;
-        font-size: 2rem;
-        font-family: 'Amatic SC', cursive;
-        text-shadow: 5px 5px 50px #b700ff;
+        font-size: 40px;
+        color:yellow;
+        font-family: 'Luckiest Guy', cursive;
+        text-shadow: 0px 0px 20px #b700ff;
     }
 
 
     html {
         scroll-behavior: smooth;
-        margin-bottom: 100px;
     }
 
-    .alert,.card,.btn,.jumbotron,table{
-        box-shadow: 0 0 15px #ccff33;
-        -webkit-box-shadow: 0 0 15px #ccff33;
-        -moz-box-shadow: 0 0 15px #ccff33;
+    .btn,.jumbotron,table{
+        box-shadow: 0 0 25px #33f8ff;
+        -webkit-box-shadow: 0 0 25px #33f8ff;
+        -moz-box-shadow: 0 0 25px #33f8ff;
     }
 
-
-    td,
-    th {
-        padding: 1rem;
+    .alert, .card, img{
+        box-shadow: 0 0 25px yellow;
+        -webkit-box-shadow: 0 0 25px yellow;
+        -moz-box-shadow: 0 0 25px yellow;
     }
+    
 
-    td > a {
-        padding: .4rem 1rem;
+    hr{
+        border : 0;
+        height: 1px; 
+        background-image: linear-gradient(to right, yellow, #b700ff, rgb(26, 61, 102)); 
     }
-
     .custom--container {
         margin: 0 auto;
         width: min(1000px, 90vw);
@@ -76,58 +78,30 @@
         gap: 2rem;
     }
 
-    @media(max-width: 450px) {
-        td, th { padding: .4rem; }
-        .gif{
-            max-width: 150px;
-            max-height: auto;
-        }
-    }
 
 
-
-    a.hiddenTab {
-        visibility:hidden; 
-        display:none;
-    }
 
     #news,marquee,.sub-nav{
         background: transparent;
-        color:white;
-        text-shadow: 0 0 5px #b700ff;; 
+        color:yellow;
+        text-shadow: 0 0 20px #b700ff;
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 20px;
     }
 
     a.btn:focus,a.btn:hover{
-        background: #ccff33;  
+        background: rgb(255, 208, 0);  
         border:2px solid white;
-        box-shadow: 0 0 50px #88ac1f;
-        text-shadow: 0 0 50px #b700ff;
+        box-shadow: 0 0 50px #b700ff;
         transform: scale(1.1,1.1);
         color:black !important;
         transition: transform 0.5s ease-out;
     
     }
 
-    .bt:hover{
-        background-color: #b700ff;
-        box-shadow: 0 0 15px #ccff33;
-        transform: scale(1.1,1.1);
-        transition: transform 0.5s ease-out;
+    marquee{
+        box-shadow: 0 0 25px #33f8ff;
+        background: linear-gradient(180deg, rgb(25, 32, 41) 11.2%, rgb(12, 29, 48) 51.2%);
     }
-
-     .carousel-control-prev-icon {
-        background-image: url(images/pngfind.com-black-arrow-png-475390.png);
-        transform: rotate(180deg);
-    }
-
-    .carousel-control-next-icon {
-        background-image: url(images/pngfind.com-black-arrow-png-475390.png);
-
-    }
-
-
-
-
-
 
 
